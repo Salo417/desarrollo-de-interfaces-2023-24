@@ -5,6 +5,9 @@
 
 package com.des.interfz.ej2;
 
+import com.des.interfz.ej2.layouts.MainTitle;
+import javax.swing.JFrame;
+
 /**
  *
  * @author sersu
@@ -12,6 +15,7 @@ package com.des.interfz.ej2;
 public class DesInterfzEj2 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        JFrame mainFrm = new MainTitle();
+        mainFrm.setVisible(true);
     }
 }
